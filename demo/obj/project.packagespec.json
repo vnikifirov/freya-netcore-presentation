@@ -1,0 +1,75 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/nikifovadim/Desktop/freya-netcore-presentation-master/demo/demo.fsproj",
+    "projectName": "demo",
+    "projectPath": "/Users/nikifovadim/Desktop/freya-netcore-presentation-master/demo/demo.fsproj",
+    "outputPath": "/Users/nikifovadim/Desktop/freya-netcore-presentation-master/demo/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp1.1"
+    ],
+    "frameworks": {
+      "netcoreapp1.1": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Chiron": {
+          "target": "Package",
+          "version": "[7.0.0-alpha-*, )"
+        },
+        "FSharp.Core": {
+          "target": "Package",
+          "version": "[4.*, )"
+        },
+        "FSharp.NET.Sdk": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[1.*, )"
+        },
+        "Freya.Core.Hopac": {
+          "target": "Package",
+          "version": "[4.0.0-alpha-*, )"
+        },
+        "Freya.Hopac": {
+          "target": "Package",
+          "version": "[4.0.0-alpha-*, )"
+        },
+        "Hephaestus.Hopac": {
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "Microsoft.AspNetCore.Owin": {
+          "target": "Package",
+          "version": "[1.*, )"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": {
+          "target": "Package",
+          "version": "[1.*, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[1.1.2, )",
+          "autoReferenced": true
+        },
+        "System.ValueTuple": {
+          "target": "Package",
+          "version": "[4.4.0, )"
+        }
+      }
+    }
+  },
+  "runtimes": {
+    "debian.8-x64": {
+      "#import": []
+    },
+    "win7-x64-corert": {
+      "#import": []
+    }
+  }
+}
